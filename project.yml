@@ -1,0 +1,17 @@
+environment: {}
+parameters: {}
+packages:
+  - name: mint
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: trains
+        binary: false
+        main: ''
+        runtime: 'php:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
